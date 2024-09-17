@@ -568,7 +568,7 @@ public class JEasyPdfTemplateSlimUnitaryTests {
         settings.setTextChars(98);
         settings.setTextOffsetY(new int[]{732,577,421,266,111});
         settings.setTextEnable(new boolean[]{textOn,textOn,true,textOn,textOn});
-        settings.setTextColor(ColorsToJEasyPdf.GRAY);
+        settings.setTextColor(ColorsToJEasyPdf.WHITE);
         settings.setTextSize(FontSizeToJEasyPdf.NORMAL);
         settings.setTextFont(FontNameToJEasyPdf.HELVETICA);
 
