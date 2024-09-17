@@ -274,6 +274,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
+     * TODO
      * <h6 style="color: #FFFF00; font-size: 11px">pdfAddForm</h6>
      *
      * <p style="color: #CDCDCD">Add an form to a PDF file</p>
@@ -283,7 +284,7 @@ public class JEasyPdf extends JEasyPdfResources {
      * @param rectSettings (EasyPdfRectangleSettings)
      * @author huntercodexs (powered by jereelton-devel)
      * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
-     *//*TODO*/
+     */
     public void pdfAddForm(
             JEasyPdfDocument docSettings,
             JEasyPdfPage pageSettings,
@@ -974,6 +975,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
+     * TODO
      * <h6 style="color: #FFFF00; font-size: 11px">pdfAssign</h6>
      *
      * <p style="color: #CDCDCD">Assign a PDF file with a keystore, date and md5sum|sha256</p>
@@ -985,10 +987,11 @@ public class JEasyPdf extends JEasyPdfResources {
      * @implNote For Windows + MS Office Word
      * */
     public void pdfAssign(String docPath, String filenamePath) {
-        /*TODO*/
+        /*Code here !*/
     }
 
     /**
+     * TODO
      * <h6 style="color: #FFFF00; font-size: 11px">pdfFromDoc</h6>
      *
      * <p style="color: #CDCDCD">Create a PDF file from doc</p>
@@ -1000,7 +1003,7 @@ public class JEasyPdf extends JEasyPdfResources {
      * @implNote For Windows + MS Office Word
      * */
     public void pdfFromDoc(String docPath, String filenamePath) {
-        /*TODO*/
+        /*Code here !*/
     }
 
 }

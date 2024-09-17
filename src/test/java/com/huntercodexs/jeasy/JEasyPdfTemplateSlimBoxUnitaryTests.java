@@ -332,58 +332,26 @@ public class JEasyPdfTemplateSlimBoxUnitaryTests {
 
     @Test
     public void easyPdfTemplateSlimBoxLetterLayoutTest() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateSlimBox(easyPdfTemplateSettingsLetterLayout());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateSlimBoxA4LayoutTest() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateSlimBox(easyPdfTemplateSettingsA4Layout());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateSlimBoxLetterSample1Test() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateSlimBox(easyPdfTemplateSettingsLetter());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateSlimBoxA4Sample1Test() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateSlimBox(easyPdfTemplateSettingsA4());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
 }

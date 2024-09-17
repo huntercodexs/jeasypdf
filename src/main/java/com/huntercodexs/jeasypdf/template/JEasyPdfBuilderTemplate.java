@@ -14,6 +14,7 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPageContentStream;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 import static com.huntercodexs.jeasypdf.core.enumerator.ColorsToJEasyPdf.color;
@@ -54,6 +55,7 @@ public abstract class JEasyPdfBuilderTemplate extends JEasyPdf {
             }
 
             for (String[] lines : listLines) {
+                System.out.println("=======> " + Arrays.toString(lines));
                 contentStreamText(lines, pageSettings, contentStream);
             }
 
@@ -195,6 +197,8 @@ public abstract class JEasyPdfBuilderTemplate extends JEasyPdf {
         //Text Left Column
         if (slimSettings.columnBoxLeftEnable[box]) {
 
+            System.out.println("=====[LEFT]> " + box);
+
             pageSettings.setFontName(slimSettings.columnBoxLeftFontName[box]);
             pageSettings.setFontSize(slimSettings.columnBoxLeftFontSize[box]);
             pageSettings.setFontColor(slimSettings.columnBoxLeftTextColor[box]);
@@ -213,6 +217,8 @@ public abstract class JEasyPdfBuilderTemplate extends JEasyPdf {
         //Text Center Column
         if (slimSettings.columnBoxCenterEnable[box]) {
 
+            System.out.println("=====[CENTER]> " + box);//TODO: CHECK THIS BUG
+
             pageSettings.setFontName(slimSettings.columnBoxCenterFontName[box]);
             pageSettings.setFontSize(slimSettings.columnBoxCenterFontSize[box]);
             pageSettings.setFontColor(slimSettings.columnBoxCenterTextColor[box]);
@@ -230,6 +236,8 @@ public abstract class JEasyPdfBuilderTemplate extends JEasyPdf {
 
         //Text Right Column
         if (slimSettings.columnBoxRightEnable[box]) {
+
+            System.out.println("=====[RIGHT]> " + box);
 
             pageSettings.setFontName(slimSettings.columnBoxRightFontName[box]);
             pageSettings.setFontSize(slimSettings.columnBoxRightFontSize[box]);

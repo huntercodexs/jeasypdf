@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.huntercodexs.jeasypdf</groupId>
     <artifactId>jeasypdf</artifactId>
     <version>24.09.1-SNAPSHOT</version>
+    <groupId>com.huntercodexs.jeasypdf</groupId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -16,66 +16,28 @@
 
     <dependencies>
 
-        <!--PDF: PDF BOX-->
+        <!--COMMONS: IOUtils-->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.16.1</version>
+        </dependency>
+
+        <!--PDF: iText-->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>bouncy-castle-adapter</artifactId>
+            <version>8.0.4</version>
+        </dependency>
+
+        <!--PDF: PDFBOX-->
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>pdfbox</artifactId>
             <version>2.0.0</version>
         </dependency>
 
-        <!--MS-OFFICE TO PDF-->
-        <dependency>
-            <groupId>com.documents4j</groupId>
-            <artifactId>documents4j-api</artifactId>
-            <version>0.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.documents4j</groupId>
-            <artifactId>documents4j-util-conversion</artifactId>
-            <version>0.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.documents4j</groupId>
-            <artifactId>documents4j-transformer</artifactId>
-            <version>0.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.documents4j</groupId>
-            <artifactId>documents4j-util-all</artifactId>
-            <version>0.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.documents4j</groupId>
-            <artifactId>documents4j-local</artifactId>
-            <version>0.2.1</version>
-        </dependency>
-        <!--<dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.8.0-beta2</version>
-        </dependency>-->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.8.0-beta2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.documents4j</groupId>
-            <artifactId>documents4j-util-standalone</artifactId>
-            <version>1.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.documents4j</groupId>
-            <artifactId>documents4j-transformer-msoffice-word</artifactId>
-            <version>1.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>23.0</version>
-        </dependency>
-
-        <!--BARCODE-->
+        <!--BARCODE/QRCODE-->
         <dependency>
             <groupId>com.google.zxing</groupId>
             <artifactId>core</artifactId>
@@ -96,25 +58,19 @@
             <artifactId>krysalis-barcode-fop-ext</artifactId>
             <version>0.20.5-1.0beta</version>
         </dependency>
-        <!--<dependency>
-            <groupId>net.sf.barcode4j</groupId>
-            <artifactId>barcode4j</artifactId>
-            <version>2.1</version>
-        </dependency>-->
         <dependency>
             <groupId>com.singingbush</groupId>
             <artifactId>barcode4j</artifactId>
             <version>2.2.4</version>
         </dependency>
 
-        <!--TESTS-->
+        <!--TESTS: JUNIT-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>

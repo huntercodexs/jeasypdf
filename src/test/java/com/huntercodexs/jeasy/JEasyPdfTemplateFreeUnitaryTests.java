@@ -20,7 +20,7 @@ public class JEasyPdfTemplateFreeUnitaryTests {
     private final static String pdfFilenameA4 = path+"/my-jeasypdf-test-template-free-A4.pdf";
     private final static String pdfFilenameA4Layout = path+"/my-jeasypdf-test-template-free-A4-LAYOUT.pdf";
     private final static String imgJava = "./src/test/resources/files/images/ads/java.png";
-    private final static String imgBackground = "./src/test/resources/files/images/background/jeasypdf-background-sample-7.jpg";
+    private final static String imgBackground = "./src/test/resources/files/images/background/jeasypdf-background-sample-5.jpg";
     private final static String userPassword = "123456";
     private final static String ownerPassword = "password";
 
@@ -332,58 +332,26 @@ public class JEasyPdfTemplateFreeUnitaryTests {
 
     @Test
     public void easyPdfTemplateFreeLetterLayoutTest() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateFree(easyPdfTemplateSettingsLetterLayout());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateFreeA4LayoutTest() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateFree(easyPdfTemplateSettingsA4Layout());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateFreeLetterSample1Test() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateFree(easyPdfTemplateSettingsLetter());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateFreeA4Sample1Test() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateFree(easyPdfTemplateSettingsA4());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
 }

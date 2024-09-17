@@ -32,7 +32,7 @@ public class JEasyPdfSlimTemplate extends JEasyPdfBuilderTemplate {
     private int correctOffsetY(int box, String pageSize, JEasyPdfContainer rectSettings) {
         int adjustOffsetY = 0;
 
-        if (pageSize.equals("A4")) {
+        if (pageSize.contains("A4")) {
             adjustOffsetY = OFFSET_Y_ADJUST_A4;
         }
 
@@ -586,7 +586,7 @@ public class JEasyPdfSlimTemplate extends JEasyPdfBuilderTemplate {
         slimContainerColumnCreate(settings, contentStream);
         slimContainerTableCreate(settings, contentStream);
         slimContainerImageCreate(document, settings, contentStream);
-        /*NOTE: Text,Content should be in the final of the process*/
+        /*NOTE: Text/Content should be in the final of the process*/
         slimContainerColumnContentCreate(settings, contentStream);
         slimContainerTableContentCreate(settings, contentStream);
         slimContainerTextCreate(settings, contentStream);

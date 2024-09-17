@@ -330,61 +330,28 @@ public class JEasyPdfTemplateHeaderBodyUnitaryTests {
         Assertions.assertEquals("HEADER_BODY", template);
     }
 
-    /*TODO: CREATE A SAMPLE TEMPLATE USING THIS TEMPLATE + BARCODE-FORM RESOURCE*/
     @Test
     public void easyPdfTemplateHeaderBodyLetterLayoutTest() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateHeaderBody(easyPdfTemplateSettingsLetterLayout());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateHeaderBodyA4LayoutTest() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateHeaderBody(easyPdfTemplateSettingsA4Layout());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateHeaderBodyLetterSample1Test() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateHeaderBody(easyPdfTemplateSettingsLetter());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
     @Test
     public void easyPdfTemplateHeaderBodyA4Sample1Test() {
-        Runtime rt = Runtime.getRuntime();
-
-        long totalMemory = rt.totalMemory();
-        long freeMemoryBefore = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-
         JEasyPdfTemplate templateManager = new JEasyPdfTemplate();
         templateManager.easyPdfTemplateHeaderBody(easyPdfTemplateSettingsA4());
-
-        long freeMemoryAfter = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
-        long usedMemory = freeMemoryAfter - freeMemoryBefore;
     }
 
 }
