@@ -61,6 +61,7 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.16.1</version>
+            <scope>compile</scope>
         </dependency>
 
         <!--PDF: iText-->
@@ -68,6 +69,7 @@
             <groupId>com.itextpdf</groupId>
             <artifactId>bouncy-castle-adapter</artifactId>
             <version>8.0.4</version>
+            <scope>compile</scope>
         </dependency>
 
         <!--PDF: PDFBOX-->
@@ -75,6 +77,7 @@
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>pdfbox</artifactId>
             <version>2.0.0</version>
+            <scope>compile</scope>
         </dependency>
 
         <!--BARCODE/QRCODE-->
@@ -82,26 +85,31 @@
             <groupId>com.google.zxing</groupId>
             <artifactId>core</artifactId>
             <version>3.5.2</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.google.zxing</groupId>
             <artifactId>javase</artifactId>
             <version>3.5.2</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.krysalis</groupId>
             <artifactId>krysalis-barcode</artifactId>
             <version>1.0beta</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.krysalis</groupId>
             <artifactId>krysalis-barcode-fop-ext</artifactId>
             <version>0.20.5-1.0beta</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.singingbush</groupId>
             <artifactId>barcode4j</artifactId>
             <version>2.2.4</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
