@@ -17,9 +17,10 @@ import static com.huntercodexs.jeasypdf.core.enumerator.FontNameToJEasyPdf.fontN
 import static com.huntercodexs.jeasypdf.core.enumerator.FontSizeToJEasyPdf.fontSize;
 
 /**
+ * This class use as "pdfbox 2.0.0" from org.apache.pdfbox base process to PDF files handler
+ *
  * @author huntercodexs (powered by jereelton-devel)
  * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
- * @implNote This class use as "pdfbox 2.0.0" from org.apache.pdfbox base process to PDF files handler
  * */
 public abstract class JEasyPdfCore {
 

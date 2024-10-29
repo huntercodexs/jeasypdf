@@ -32,14 +32,15 @@ import static com.huntercodexs.jeasypdf.core.enumerator.ImageQualityToJEasyPdf.i
 import static com.huntercodexs.jeasypdf.core.enumerator.ImageTypeToJEasyPdf.imageType;
 
 /**
+ * This class use as "pdfbox 2.0.0" from org.apache.pdfbox base process to PDF files handler
+ *
  * @author huntercodexs (powered by jereelton-devel)
  * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
- * @implNote This class use as "pdfbox 2.0.0" from org.apache.pdfbox base process to PDF files handler
  * */
 public class JEasyPdf extends JEasyPdfResources {
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfCreate</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfCreate</p>
      *
      * <p style="color: #CDCDCD">Create a PDF file quickly</p>
      *
@@ -67,7 +68,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfAddImage</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfAddImage</p>
      *
      * <p style="color: #CDCDCD">Add an image to a PDF file</p>
      *
@@ -119,7 +120,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfAddContainer</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfAddContainer</p>
      *
      * <p style="color: #CDCDCD">Add an box (square, rectangle) to a PDF file</p>
      *
@@ -168,7 +169,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfAddBarcode</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfAddBarcode</p>
      *
      * <p style="color: #CDCDCD">Add an barcode (128, 39, pdf417) to a PDF file</p>
      *
@@ -226,7 +227,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfAddQrCode</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfAddQrCode</p>
      *
      * <p style="color: #CDCDCD">Add an QR Code to a PDF file</p>
      *
@@ -274,8 +275,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * TODO
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfAddForm</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfAddForm</p>
      *
      * <p style="color: #CDCDCD">Add an form to a PDF file</p>
      *
@@ -602,7 +602,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfAddBarcodeForm</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfAddBarcodeForm</p>
      *
      * <p style="color: #CDCDCD">Add an barcode form to a PDF file</p>
      *
@@ -637,7 +637,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfReader</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfReader</p>
      *
      * <p style="color: #CDCDCD">Reader an specific PDF file</p>
      * <p>
@@ -692,7 +692,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfProtect</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfProtect</p>
      *
      * <p style="color: #CDCDCD">Encrypt one PDF file to data protection</p>
      *
@@ -705,7 +705,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfUnprotect</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfUnprotect</p>
      *
      * <p style="color: #CDCDCD">Unprotect PDF file</p>
      *
@@ -718,7 +718,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfDetails</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfDetails</p>
      *
      * <p style="color: #CDCDCD">Get details from one PDF file</p>
      *
@@ -756,7 +756,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfFromImage</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfFromImage</p>
      *
      * <p style="color: #CDCDCD">Create a PDF file from image</p>
      *
@@ -803,7 +803,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfToImage</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfToImage</p>
      *
      * <p style="color: #CDCDCD">Export a PDF file to image</p>
      *
@@ -855,7 +855,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfSplitter</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfSplitter</p>
      *
      * <p style="color: #CDCDCD">Split a PDF file into many files</p>
      *
@@ -908,7 +908,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfMerge</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfMerge</p>
      *
      * <p style="color: #CDCDCD">Merge pdf files in a single PDF file</p>
      *
@@ -943,7 +943,7 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfScanner</h6>
+     * <p style="color: #FFFF00; font-size: 11px">pdfScanner</p>
      *
      * <p style="color: #CDCDCD">Scanner a PDF file to get some barcode in it</p>
      *
@@ -975,8 +975,9 @@ public class JEasyPdf extends JEasyPdfResources {
     }
 
     /**
-     * TODO
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfAssign</h6>
+     * For Windows + MS Office Word
+     *
+     * <p style="color: #FFFF00; font-size: 11px">pdfAssign</p>
      *
      * <p style="color: #CDCDCD">Assign a PDF file with a keystore, date and md5sum|sha256</p>
      *
@@ -984,15 +985,15 @@ public class JEasyPdf extends JEasyPdfResources {
      * @param filenamePath (String: Path filename to save file)
      * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
      * @author huntercodexs (powered by jereelton-devel)
-     * @implNote For Windows + MS Office Word
      * */
     public void pdfAssign(String docPath, String filenamePath) {
         /*Code here !*/
     }
 
     /**
-     * TODO
-     * <h6 style="color: #FFFF00; font-size: 11px">pdfFromDoc</h6>
+     * For Windows + MS Office Word
+     *
+     * <p style="color: #FFFF00; font-size: 11px">pdfFromDoc</p>
      *
      * <p style="color: #CDCDCD">Create a PDF file from doc</p>
      *
@@ -1000,7 +1001,6 @@ public class JEasyPdf extends JEasyPdfResources {
      * @param filenamePath (String: Path filename to save file)
      * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
      * @author huntercodexs (powered by jereelton-devel)
-     * @implNote For Windows + MS Office Word
      * */
     public void pdfFromDoc(String docPath, String filenamePath) {
         /*Code here !*/
