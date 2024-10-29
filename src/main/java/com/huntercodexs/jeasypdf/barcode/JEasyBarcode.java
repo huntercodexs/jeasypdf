@@ -26,7 +26,7 @@ import java.util.Map;
 public class JEasyBarcode {
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">barcode128</h6>
+     * <p style="color: #FFFF00; font-size: 11px">barcode128</p>
      *
      * <p style="color: #CDCDCD">Create one barcode for 128 format</p>
      *
@@ -73,7 +73,7 @@ public class JEasyBarcode {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">barcode39</h6>
+     * <p style="color: #FFFF00; font-size: 11px">barcode39</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types</p>
      *
@@ -118,7 +118,7 @@ public class JEasyBarcode {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">barcodePdf417</h6>
+     * <p style="color: #FFFF00; font-size: 11px">barcodePdf417</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types</p>
      *
@@ -163,7 +163,7 @@ public class JEasyBarcode {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">qrCode</h6>
+     * <p style="color: #FFFF00; font-size: 11px">qrCode</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types</p>
      *

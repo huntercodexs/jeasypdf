@@ -14,9 +14,10 @@ import static com.huntercodexs.jeasypdf.core.dto.JEasyPdfPage.WIDTH_ADJUST_A4;
 import static com.huntercodexs.jeasypdf.template.setting.bigburger.BigBurgerTemplateSettings.*;
 
 /**
+ * This class use as "pdfbox 2.0.0" from org.apache.pdfbox base process to PDF files handler
+ *
  * @author huntercodexs (powered by jereelton-devel)
  * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
- * @implNote This class use as "pdfbox 2.0.0" from org.apache.pdfbox base process to PDF files handler
  * */
 public class JEasyPdfBigBurgerTemplate extends JEasyPdfBuilderTemplate {
 

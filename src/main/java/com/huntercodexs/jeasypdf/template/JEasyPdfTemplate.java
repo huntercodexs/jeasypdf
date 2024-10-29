@@ -14,9 +14,10 @@ import java.io.IOException;
 import static com.huntercodexs.jeasypdf.core.enumerator.JEasyPdfTemplates.template;
 
 /**
+ * This class use as "pdfbox 2.0.0" from org.apache.pdfbox base process to PDF files handler
+ *
  * @author huntercodexs (powered by jereelton-devel)
  * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
- * @implNote This class use as "pdfbox 2.0.0" from org.apache.pdfbox base process to PDF files handler
  * */
 public class JEasyPdfTemplate extends JEasyPdfCore {
 
@@ -27,7 +28,7 @@ public class JEasyPdfTemplate extends JEasyPdfCore {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">easyPdfTemplateSlim</h6>
+     * <p style="color: #FFFF00; font-size: 11px">easyPdfTemplateSlim</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types using Slim Template</p>
      *
@@ -65,7 +66,7 @@ public class JEasyPdfTemplate extends JEasyPdfCore {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">easyPdfTemplateBox</h6>
+     * <p style="color: #FFFF00; font-size: 11px">easyPdfTemplateBox</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types using Box Template</p>
      *
@@ -103,7 +104,7 @@ public class JEasyPdfTemplate extends JEasyPdfCore {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">easyPdfTemplateBoxOpen</h6>
+     * <p style="color: #FFFF00; font-size: 11px">easyPdfTemplateBoxOpen</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types using Box Open Template</p>
      *
@@ -141,7 +142,7 @@ public class JEasyPdfTemplate extends JEasyPdfCore {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">easyPdfTemplateSlimBox</h6>
+     * <p style="color: #FFFF00; font-size: 11px">easyPdfTemplateSlimBox</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types using Slim Box Template</p>
      *
@@ -179,7 +180,7 @@ public class JEasyPdfTemplate extends JEasyPdfCore {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">easyPdfTemplateTripleFall</h6>
+     * <p style="color: #FFFF00; font-size: 11px">easyPdfTemplateTripleFall</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types using Triple Fall Template</p>
      *
@@ -217,7 +218,7 @@ public class JEasyPdfTemplate extends JEasyPdfCore {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">easyPdfTemplateFree</h6>
+     * <p style="color: #FFFF00; font-size: 11px">easyPdfTemplateFree</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types using Free Template</p>
      *
@@ -255,7 +256,7 @@ public class JEasyPdfTemplate extends JEasyPdfCore {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">easyPdfTemplateHeaderBody</h6>
+     * <p style="color: #FFFF00; font-size: 11px">easyPdfTemplateHeaderBody</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types using HeaderBody Template</p>
      *
@@ -293,7 +294,7 @@ public class JEasyPdfTemplate extends JEasyPdfCore {
     }
 
     /**
-     * <h6 style="color: #FFFF00; font-size: 11px">easyPdfTemplateBigBurger</h6>
+     * <p style="color: #FFFF00; font-size: 11px">easyPdfTemplateBigBurger</p>
      *
      * <p style="color: #CDCDCD">Create a template file for PDF media types using BigBurger Template</p>
      *
