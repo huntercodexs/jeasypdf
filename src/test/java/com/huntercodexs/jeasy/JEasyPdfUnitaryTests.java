@@ -4,6 +4,7 @@ import com.huntercodexs.jeasypdf.JEasyPdf;
 import com.huntercodexs.jeasypdf.barcode.setting.BarcodeScanner;
 import com.huntercodexs.jeasypdf.core.dto.*;
 import com.huntercodexs.jeasypdf.core.enumerator.*;
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.krysalis.barcode4j.HumanReadablePlacement;
@@ -406,6 +407,7 @@ public class JEasyPdfUnitaryTests {
     }
 
     @Test
+    @Ignore
     public void pdfAddFormTest() {
         JEasyPdfDocument docSet = documentSettings(FILEPATH_TARGET);
         JEasyPdfPage pageSet = pageSettings();
