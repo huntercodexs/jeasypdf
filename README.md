@@ -1,2 +1,2 @@
 # JEASYPDF
-A simple project to create pdf file based on pdf-box
+https://github.com/huntercodexs/jeasypdf
