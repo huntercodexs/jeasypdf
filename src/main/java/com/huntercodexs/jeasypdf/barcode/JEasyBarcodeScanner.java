@@ -22,22 +22,22 @@ import java.util.List;
 
 /**
  * Note: This code was made initially by David Keller and afterward changed/adapted
- * by Jereelton Teixeira to resolve a specific problem to read a barcode value form PDF files.<br />
+ * by Jereelton Teixeira to resolve a specific problem to read a barcode value form PDF files.<br>
  * This code works fine, but there is a bit of technical debts to solve and fix yet, you can use less
  * big problems, and if you have any questions just email to huntercodexs@gmail.com informing
  * that problem, no hassle.
- * <br />
+ * <br>
  * License: MIT (free to use or copy)
- * <br />
+ * <br>
  * About: Scanner one PDF file to get all barcode and qrcode from this file in the specific format
- * knowing by PdfBarcodeScannerResults that offers the following information:<br />
- * - page<br />
- * - barcodeType<br />
- * - barcodeValue<br />
+ * knowing by PdfBarcodeScannerResults that offers the following information:<br>
+ * - page<br>
+ * - barcodeType<br>
+ * - barcodeValue<br>
  * Those information above are retrieve in the List as the affordable data structured
  *
  * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
- * @author David KELLER <david.keller.fr@gmail.com>
+ * @author David KELLER (david.keller.fr@gmail.com)
  * @author huntercodexs (powered by jereelton-devel)
  */
 public class JEasyBarcodeScanner {

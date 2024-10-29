@@ -641,13 +641,13 @@ public class JEasyPdf extends JEasyPdfResources {
      *
      * <p style="color: #CDCDCD">Reader an specific PDF file</p>
      * <p>
-     * <br />It is possible to read a whole pdf document using 0 for pageStart and 0 for pageEnd
-     * <br />Also it is possible to read a range of page using the initial page range and the final page range
-     * <br />More one option is to read a single page using in the pageStart and pageEnd the same value
-     * <br />Examples:
-     * <br />- Read Whole document: (filenamePath, 0, 0)
-     * <br />- Read range page of document: (filenamePath, 2, 6)
-     * <br />- Read a single page of document: (filenamePath, 0, 1)
+     * <br>It is possible to read a whole pdf document using 0 for pageStart and 0 for pageEnd
+     * <br>Also it is possible to read a range of page using the initial page range and the final page range
+     * <br>More one option is to read a single page using in the pageStart and pageEnd the same value
+     * <br>Examples:
+     * <br>- Read Whole document: (filenamePath, 0, 0)
+     * <br>- Read range page of document: (filenamePath, 2, 6)
+     * <br>- Read a single page of document: (filenamePath, 0, 1)
      *
      * @param docSettings (EasyPdfDocumentSettings)
      * @return String (PDF Content)
@@ -913,7 +913,7 @@ public class JEasyPdf extends JEasyPdfResources {
      * <p style="color: #CDCDCD">Merge pdf files in a single PDF file</p>
      *
      * @param docSettings (EasyPdfDocumentSettings)
-     * @param pdfListToMerge (List<String>)
+     * @param pdfListToMerge (List&lt;String&gt;)
      * @author huntercodexs (powered by jereelton-devel)
      * @see <a href="https://github.com/huntercodexs/jeasypdf">JEasyPdf (GitHub)</a>
      */
