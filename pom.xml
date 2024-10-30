@@ -6,7 +6,7 @@
 
     <groupId>com.huntercodexs</groupId>
     <artifactId>jeasypdf</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.8.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -82,6 +82,25 @@
 
     <build>
         <plugins>
+
+            <!--Build: Generate Final Jar with all dependency-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.4</version>
+                <configuration>
+                    <createDependencyReducedPom>false</createDependencyReducedPom>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
             <!--Removing assigned dependencies and pack all in one single jar file-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
