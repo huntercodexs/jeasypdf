@@ -207,9 +207,9 @@
                 <version>0.6.0</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <skipPublishing>true</skipPublishing>
+                    <skipPublishing>false</skipPublishing>
                     <publishingServerId>central</publishingServerId>
-                    <deploymentName>QuickJson-${project.version}</deploymentName>
+                    <deploymentName>JEasyPdf-${project.version}</deploymentName>
                     <outputFilename>jeasypdf-${project.version}</outputFilename>
                     <ignorePublishedComponents>false</ignorePublishedComponents>
                 </configuration>
