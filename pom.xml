@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
     <groupId>com.huntercodexs</groupId>
     <artifactId>jeasypdf</artifactId>
-    <version>1.8.0.BETA</version>
+    <version>1.8.0-BETA</version>
 
     <!--Deploy: ProjectName, Description and URL-->
     <name>jeasypdf</name>
